@@ -46,7 +46,6 @@ Exercise 1: create a python program that prints out your basic info about yourse
 	print(abs(20))
 	```
   Now let's take a look at all the other build in math functions: [Math Functions](https://www.programiz.com/python-programming/modules/math)
-<br>
 - Operator Precedence
   ```
 	#Example 6: Operator Precedence 
@@ -73,7 +72,7 @@ Exercise 1: create a python program that prints out your basic info about yourse
 
 	# this should error out since age has not been converted to a string
   ```
-  	- Exercise: idk create some sort of project that involes concatenating 	  lots of things.
+  - Exercise: idk create some sort of project that involes concatenating 	  lots of things.
 - Type Conversion 
     ```
 	#Example 8: Type Conversion
