@@ -4,7 +4,7 @@
 - What you'll learn in this course
 - Get to know your classmates
 - What is a programming language/python? 
-- Python Basics: 
+- Python Basics: [Python File w/ examples](https://github.com/HunterMRocha/python-curriculum/blob/master/python_basics.py)
   - Hello World! 
   - Variables & Naming Conventions
     - Strings, Ints, Bools, Chars, etc.
