@@ -97,3 +97,22 @@ print(abs(-12))
 print(round(2.4))
 print(round(2.8))
 
+#conditionals 
+x = 4
+y = 8
+if x > y: 
+	print("X is greater than Y")
+elif x < y: 
+	print("X is smaller than Y")
+else: 
+	print("X and Y are equal")
+
+name = "hunter"
+if name == "hunter":
+	print("hi hunter. how is it going")
+
+if x >= y and name == 'hunter': 
+	print('x was greater than or equal to y and name = hunter')
+	
+
+
