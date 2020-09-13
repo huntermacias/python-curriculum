@@ -6,22 +6,43 @@ print("1. Hello World")
 print("2. Hunter Macias")
 print("3. This is one line \n4. This is another")
 print("--------------------------")
+print(3)
+print(145)
+print(32.13)
+print(0.23)
+print(23)
 
-#Creating different variables
 
+#Creating different data types
 #Strings
 name = "Hunter"
 last_name = "Macias"
 work_email = "hunter@missionbit.org"
 slack_group = "???"
+print(type(name))
+print(type(last_name))
 
-#Ints
+#double quoted strings
+print('This is a normal sentence')
+print("This is a sentence with a single quote (')")
+print('''This is a sentence with a double (") and a single (')''')
+
+
+#Integers
 age = 21
 health = 100
 tasks_remaining = 4
 items_available = 21
+print(type(age)) #this will print what data type age is
+print(type(health))
 
 #maybe go over floats too
+speed = 32.4
+percent = 23.
+change = .84
+print(type(speed))
+print(type(percent))
+
 
 #printing strings and ints
 print()
@@ -39,7 +60,7 @@ print("My name is", name, "\nI am", age, "years old")
 print("Player 2 has", health, "health")
 print("------------------------------")
 
-#Taking in string inputs
+#Taking in string inputs (don't have to go over \t but if you want it just adds a tab)
 print()
 print("--Taking in String Inputs--")
 name = input("Enter your name: ")
@@ -52,7 +73,7 @@ print("\tLast Name: ", last_name)
 print("\tEmail: ", email)
 print("---------------------------")
 
-#taking in int input
+#taking in int input (explain why we use int(input()) instead of input())
 print()
 print("--Taking in Int Input--")
 age = int(input("enter your age: "))
