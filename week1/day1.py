@@ -1,6 +1,6 @@
 #How to comment on your code
 
-#printing to the screen
+#printing to the screen 
 print("--Printing to the screen--")
 print("1. Hello World")
 print("2. Hunter Macias")
@@ -80,4 +80,20 @@ age = int(input("enter your age: "))
 favorite_number = int(input("enter your fav number: "))
 
 
-#depending on time we might potentially go into day 2... 
+#math in python 
+print(2+2)
+print(2*3)
+print(4/2)
+print(6%3)
+print(3**2)
+m = 3
+x = 2
+b = 4
+y = m*x + b
+print(y)
+
+# built in functions
+print(abs(-12))
+print(round(2.4))
+print(round(2.8))
+
