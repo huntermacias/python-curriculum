@@ -1,6 +1,3 @@
-from tabulate import tabulate
-
-
 savings_account = 2200
 weekly_pay = 1300
 monthly_pay = weekly_pay * 4
@@ -19,9 +16,9 @@ def printData():
 	print(f'  {savings_account}\t\t{weekly_pay}\t\t {monthly_pay}\t\t  {annual_pay}\t\t\t{annual_expenses}\t\t  {remaining_income}')
 
 
-print('Accounts at the end of one year')
-printData()
-print()
+				print('Accounts at the end of one year')
+				printData()
+				print()
 print('Accounts at the end of two years')
 savings_account = savings_account + remaining_income
 weekly_pay = int(weekly_pay * 1.05)
