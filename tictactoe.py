@@ -149,12 +149,12 @@ def main():
 		[-55, -175, 55, -90],
 		[195, -175, 255, -90]
 	]
-	drawboard(hunter)
 	board = [
 		[-1, -1, -1],
 		[-1, -1, -1],
 		[-1, -1, -1]]
 
+	drawboard(hunter)
 	draw_numbers(hunter)
 
 	gameOver = True
